@@ -1,16 +1,22 @@
 import './App.css';
+function clickMe(){
+  
+  console.log("Hello ")
+}
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
+        <img src="https://rm-core-production.s3.amazonaws.com/logos/9763/large_Taylor_Bros.PNG" className="App-logo" alt="logo" />
         <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
+        
+        Invertory App <span className="heart">By</span> React
         </p>
         <p className="small">
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <div><button onClick={clickMe}>Push</button></div>
         <p>
           <a
             className="App-link"
